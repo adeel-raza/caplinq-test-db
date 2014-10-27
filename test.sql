@@ -23,8 +23,8 @@ DROP TABLE IF EXISTS `test`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `test` (
-  `aaaa` bigint(11) NOT NULL,
-  `dddd` bigint(11) NOT NULL
+  `aaaa` int(11) NOT NULL,
+  `dddd` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
